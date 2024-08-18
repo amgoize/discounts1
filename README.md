@@ -10,7 +10,7 @@
 - **Error Handling**: Provides meaningful error messages and status codes.
 
 ## Project Structure
-**models/:** Contains the data models (Client, Coupon) that represent the structure of the data in the database.
-**repositories/:** Handles database interactions, abstracting the data access logic from the rest of the application.
-**services/:** Implements the business logic, interacting with the repositories and preparing data for the handlers.
-**handlers/:** Manages HTTP requests and responses, communicating with services to fulfill client requests.
+- **models/:** Contains the data models (Client, Coupon) that represent the structure of the data in the database.
+- **repositories/:** Handles database interactions, abstracting the data access logic from the rest of the application.
+- **services/:** Implements the business logic, interacting with the repositories and preparing data for the handlers.
+- **handlers/:** Manages HTTP requests and responses, communicating with services to fulfill client requests.
